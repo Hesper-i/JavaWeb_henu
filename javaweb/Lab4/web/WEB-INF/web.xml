@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+<!--  Filter解决中文乱码-->
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>Filters.EncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+<!--   Servle改写登录验证功能-->
+    <servlet>
+        <servlet-name>LoginCheckServlet</servlet-name>
+        <servlet-class>Servlet.LoginCheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginCheckServlet</servlet-name>
+        <url-pattern>/LoginCheckServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

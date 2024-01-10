@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-aop-5.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-beans-5.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-web-5.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-expression-5.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-webmvc-5.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-context-5.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lab7/web/WEB-INF/lib/spring-core-5.3.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../henu/lab4/target/lab4-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../henu/lab4/target/lab4-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.28.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
